@@ -1,0 +1,22 @@
+{
+  "name": "check-unload",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Find legacy browser unload handlers in HTML and JavaScript.",
+  "type": "module",
+  "bin": {
+    "check-unload": "./bin/check-unload.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^8.19.0",
+    "acorn-walk": "^8.3.5",
+    "parse5-sax-parser": "^8.0.1"
+  }
+}
